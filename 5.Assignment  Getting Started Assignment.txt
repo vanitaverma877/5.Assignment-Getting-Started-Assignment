@@ -1,0 +1,215 @@
+
+
+5.Assignment  Getting Started Assignment
+
+1.Why do we start learning a programming language with “Hello World!"?
+
+2.How is the use of comments and how do you write comments in HTML?
+
+3.What are elements, tags and attributes and the difference between them.
+
+4.Briefly explain what HTML entities are.
+
+
+Note: Please create a Google Document and write your answers and 
+upload the shareable link of the Google Document with view access 
+during the submission of the assignment.
+
+..................................................................
+
+1.Why do we start learning a programming language with “Hello World!"?
+
+A.The tradition of starting with "Hello, World!" when learning a 
+programming language dates back to the early days of computer 
+science. Here are the main reasons:
+
+1. Historical Tradition: The "Hello, World!" program was 
+first introduced in the book *The C Programming Language* by 
+Brian Kernighan and Dennis Ritchie, who were the creators of 
+the C language. It became a tradition in computer science as 
+an introductory program for teaching syntax and structure.
+
+2. Simple and Focused: Writing "Hello, World!" allows 
+beginners to focus on the most basic elements of the language, 
+such as syntax for output, without getting bogged down by 
+complex logic or concepts. It’s a simple program that 
+illustrates how the language can produce output.
+
+3. Quick Feedback: This program provides immediate 
+feedback, showing that everything is set up correctly. 
+If you can print "Hello, World!" to the screen, you know 
+your environment is properly configured and your code works.
+
+4. Universal Understanding: The phrase is universally 
+recognized among programmers, making it an easy starting 
+point that connects newcomers with the broader programming 
+community.
+
+Starting with "Hello, World!" makes the learning process 
+less intimidating and sets the stage for more complex 
+programming concepts.
+
+......................................
+
+2.How is the use of comments and how do you write comments in HTML?
+
+A.**Use of Comments in HTML**
+
+1. Code Explanation: Comments are often used to explain 
+sections of the code. This helps other developers (or even 
+your future self) understand what the code is doing when 
+revisiting it later.
+
+2. Debugging Aid: Comments can temporarily "turn off" 
+parts of your code by commenting them out, which is useful 
+for debugging purposes.
+
+3. Enhancing Readability: Comments improve code readability 
+by providing context, especially in complex projects with 
+multiple developers. It helps to explain the logic or any 
+important notes without affecting the execution of the program.
+
+4. Organizing Code: Comments can also be used to divide 
+the code into sections, making it easier to navigate large 
+files.
+
+
+#How to Write Comments in HTML ;
+
+To write a comment in HTML, you enclose the comment text between `<!--` and `-->`:
+
+```html
+<!-- This is a comment in HTML -->
+```
+
+Anything within the `<!-- -->` tags will not be rendered in 
+the browser, and it will be ignored by the HTML engine.
+
+Example :
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+
+  <!-- This is the header section -->
+  <h1>Welcome to My Webpage</h1>
+
+  <!-- This is a paragraph explaining the content -->
+  <p>This is a simple HTML page with comments.</p>
+
+</body>
+</html>
+```
+
+This simple syntax allows developers to keep notes and 
+explanations in their code without disrupting the webpage 
+functionality.
+
+......................................
+
+3.What are elements, tags and attributes and the difference between them.
+
+A.Elements, Tags, and Attributes in HTML ;
+
+1. HTML Elements:
+   - An HTML element consists of a start tag, content, 
+and an end tag. An element is a fundamental building block 
+of a webpage and defines the structure and content.
+   
+   * Example: `<p>This is a paragraph.</p>`
+     * The `<p>` tag represents a paragraph element.
+     * The content within the element is "This is a paragraph."
+   
+   * Self-closing elements: Some elements do not require an end tag (e.g., `<img />`).
+
+2. HTML Tags :
+   * An HTML tag is a part of an element. Tags are used to 
+mark the start and end of an HTML element.
+   * Tags are enclosed in angle brackets (`<>`). The opening 
+tag denotes the start of an element, and the closing tag, prefixed 
+by a forward slash (`/`), denotes the end of an element.
+   * Example: `<h1>`, `</h1>`
+     * `<h1>` is an opening tag, and `</h1>` is a closing tag.
+
+3. HTML Attributes :
+   * Attributes are used to provide additional information 
+     about an element. Attributes are specified inside the opening 
+     tag, and they usually come in name/value pairs (`attribute="value"`).
+   * Attributes can modify an element's behavior or appearance and provide metadata.
+   * Example : `<img src="image.jpg" alt="A description of the image">`
+     * Here, `src` and `alt` are attributes of the `<img>` element.
+     * The `src` attribute specifies the source of the image, 
+      and the `alt` attribute provides alternative text if the image 
+      cannot be displayed.
+
+#Difference Between Elements, Tags, and Attributes :
+
+* Elements are the combination of tags and content that 
+create the structure of a webpage.
+* Tags are the markers that define the beginning and end of an element.
+* Attributes** provide additional information to an element, 
+  usually in the form of properties that modify its behavior or appearance.
+
+#By understanding how elements, tags, and attributes work 
+together, you can effectively structure and style content 
+on a webpage.
+
+......................................
+
+4.Briefly explain what HTML entities are.
+
+A.What Are HTML Entities?
+
+HTML entities are special codes used to represent reserved 
+characters in HTML that would otherwise be interpreted as HTML 
+code or not displayed properly. HTML entities begin with an 
+ampersand (`&`) and end with a semicolon (`;`).
+
+HTML entities are typically used for:
+1.Displaying Reserved Characters: Certain characters like 
+`<`, `>`, and `&` have special meanings in HTML. If you want 
+to display these characters on the webpage as text, you need 
+to use their corresponding HTML entities.
+   - Example: 
+     * `<` is represented as `&lt;`
+     * `>` is represented as `&gt;`
+     * `&` is represented as `&amp;`
+
+2.Displaying Non-ASCII Characters: HTML entities can also 
+be used to display characters that are not available on the 
+keyboard or are part of other languages.
+   * Example: 
+     * `©` (copyright symbol) is represented as `&copy;`
+     * `é` (e with an acute accent) is represented as `&eacute;`
+
+3.Special Symbols: HTML entities are also used to represent 
+various special characters like mathematical symbols, currency 
+symbols, and punctuation.
+   * Example: 
+     * `£` (British Pound sign) is represented as `&pound;`
+     * `€` (Euro sign) is represented as `&euro;`
+
+#Why Use HTML Entities?
+* Ensures Proper Rendering: HTML entities help ensure that 
+the browser displays the intended characters, especially when 
+they have a reserved function in HTML.
+
+* Cross-Browser Compatibility: Using entities ensures that 
+your content is displayed consistently across different 
+browsers and platforms.
+* Non-ASCII Characters: Entities allow you to include 
+characters from different languages, mathematical symbols, 
+and other special symbols that aren't easily typed on a keyboard.
+
+#By using HTML entities, you can enhance the readability of 
+your code and ensure that special characters are rendered 
+correctly on the webpage.
+
+................................................................
+
+
+
